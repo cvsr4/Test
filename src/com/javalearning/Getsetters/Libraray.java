@@ -1,7 +1,10 @@
 package com.javalearning.Getsetters;
 
+//import com.corejavaclass.datatypes.Doctor;
+
 public class Libraray {
 	
+	//DemoMethods demomethods = new DemoMethods();
     	private String Lbname="cmr";
     	private int Lbooks=1000;
     	private char Racks='2';
@@ -10,6 +13,7 @@ public class Libraray {
 	    {
 	  Libraray library=new Libraray() ;
 	  System.out.println(library);
+	  
 			  
 	}
 
@@ -41,5 +45,12 @@ public class Libraray {
 		public void setRacks(char racks) {
 			Racks = racks;
 		}
+		
+		//static Doctor calldoctor() {
+     //Doctor ddoctor=new Doctor();	
+     
+    //return ddoctor;
+		
+		
 
 }

@@ -1,6 +1,8 @@
 package com.javalearning.Methods;
 
+import com.corejavalearning.Enum.FreshJuice;
 import com.javalearning.Getsetters.Libraray;
+import com.javalearning.datatypes.Ddoctor;
 
 public class DemoMethods {
 	
@@ -9,9 +11,13 @@ public class DemoMethods {
  {
 	DemoMethods demomethods = new DemoMethods();
 	 add(10,5);
-	 Vinayak();
-	 demomethods.sampath();
-	 System.out.println(librarydetails());
+	 String result=Vinayak();
+	 //demomethods.sampath();
+	 System.out.println(demomethods.sampath());
+	 //System.out.println(librarydetails());
+	 //System.out.println(Vinayak());
+	 System.out.println(result);
+	// System.out.println(librarydet());
 }
 	public static int add(int a,int b){
 		   
@@ -22,8 +28,8 @@ public class DemoMethods {
 		}
 	static String Vinayak()
 	{
-	System.out.println("vinayak");
-	return null;
+	//System.out.println("vinayak");
+	return "vinayakreddy";
 	}
 	
 	
@@ -36,14 +42,29 @@ public class DemoMethods {
 	
 	String sampath() {
 		System.out.println("Reddy");
-		return null;
+		return "abc";
 		
 	}
 	
-	static Libraray librarydetails() {
-		Libraray library = new Libraray();
-		return null;
-		
+	
+	/*//ibrarydetails() {
+		//Libraray library = new Libraray();
+		//return library;
+	
+		//}
+	
+	//static Library librarydet() {
+	Library libb=new Library();
+		return libb;
 	}
 	
+	Ddoctor ddoctor =new Ddoctor();
+	/* The code below will print the words Hello World
+	to the screen, and it is amazing */
+	
+	/*FreshJuice blngFreshJuice() {
+		FreshJuice freshjuice = new FreshJuice();
+		fj=
+		return freshjuice;
+	}*/
 }
